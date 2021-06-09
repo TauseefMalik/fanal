@@ -15,6 +15,8 @@ type DockerOption struct {
 	AwsSecretKey    string
 	AwsSessionToken string
 	AwsRegion       string
+	AwsRoleArn      string
+	AwsExternalId   string
 
 	// GCP
 	GcpCredPath string
